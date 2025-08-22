@@ -34,6 +34,12 @@
         justify-content: center;
         align-items: center;
         color: white;
+
+        background-image: url(/photo/화난고양이.jpg);
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         margin: 0;
       }
 
@@ -77,13 +83,41 @@
         margin: 0;
         font-size: 2.5rem;
       }
+      .content-box {
+        background-color: #242423;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .image-box {
+        margin-top: 20px;
+      }
+
+      .image-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
     </style>
   </head>
   <body>
     <h1>Take a look</h1>
-    <ul>
-      <li><a href="/html/cat.html" class="bt">애용이</a></li>
-      <li><a href="/html/tableuse.html" class="bt">OLD HOME</a></li>
-    </ul>
+    <div class="content-box">
+      <ul>
+        <li>
+          <a href="/html/cat.html" class="bt"><b>애용이</b></a>
+        </li>
+        <li>
+          <a href="/html/tableuse.html" class="bt"><b>OLD HOME</b></a>
+        </li>
+      </ul>
+      <div class="image-box">
+        <img src="/photo/화난고양이.jpg" alt="Cat Image" />
+      </div>
+    </div>
   </body>
 </html>
