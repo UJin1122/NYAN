@@ -4,7 +4,7 @@
   "description": "내가 한번 만들어보고싶어서 만듬",
   "main": "index.js",
   "scripts": {
-    "start": "live-server. --port=8080 --host=localhost --no-browser",
+    "start": "live-server . --port=8080 --host=localhost --no-browser",
     "format": "prettier . --check"
   },
   "devDependencies": {
@@ -16,5 +16,4 @@
     "최고"
   ],
   "author": "ENO<enooooo93@gmail.com>"
-  
 }
