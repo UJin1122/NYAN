@@ -1,0 +1,20 @@
+{
+  "name": "nyancat",
+  "version": "1.0.0",
+  "description": "내가 한번 만들어보고싶어서 만듬",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server. --port=8080 --host=localhost --no-browser",
+    "format": "prettier . --check"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.6.2"
+  },
+  "keywords": [
+    "귀여운게",
+    "최고"
+  ],
+  "author": "ENO<enooooo93@gmail.com>"
+  
+}
