@@ -1,7 +1,7 @@
 {
   "name": "nyancat",
   "version": "1.0.0",
-  "description": "내가 한번 만들어보고싶어서 만듬",
+  "description": "만들어보고싶어서 만듬",
   "main": "index.js",
   "scripts": {
     "start": "live-server . --port=4000 --host=localhost --no-browser",
